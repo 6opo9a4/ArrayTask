@@ -3,13 +3,14 @@ package edu.epam.task4b.main;
 import edu.epam.task4b.report.ResultsReport;
 import edu.epam.task4b.service.ArrayService;
 import edu.epam.task4b.variables.NumberArray;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.io.IOException;
-import java.util.logging.Logger;
 
 public class LogisticMain {
-    private static final Logger log = Logger.getLogger(String.valueOf(edu.epam.task4a.variables.NumberArray.class));
-    public static void main(String[] args) throws IOException {
+    private static final Logger log = LogManager.getLogger(String.valueOf(LogisticMain.class));
+    public static void main(String[] args){
+        log.traceEntry("User start new main");
         NumberArray numberArray;
         ArrayService arrayService =  new ArrayService();
         numberArray = new NumberArray(arrayService.generateRandomArray(10));
@@ -21,5 +22,6 @@ public class LogisticMain {
         report.numbersArrayOut(numberArray2);
         NumberArray numberArray3 = new NumberArray(arrayService.bubbleSortMin(numberArray.getNumbers()));
         report.numbersArrayOut(numberArray3);
+        log.traceExit("User exit main");
     }
 }

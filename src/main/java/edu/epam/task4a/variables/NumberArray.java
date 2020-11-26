@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class NumberArray {
     private static final Logger log = LogManager.getLogger(String.valueOf(NumberArray.class));
-
+    ConstantValue constantValue =  new ConstantValue();
     private int[] numbers;
 
     public NumberArray(int... numbers) {
@@ -21,8 +21,9 @@ public class NumberArray {
     }
 
     public int[] getNumbers() {
+        int[] numbersTake = Arrays.copyOf(numbers, numbers.length);
         log.info("User get numbers");
-        return numbers;
+        return numbersTake;
     }
 
     public int getNumber(int numberOfNumber) {
@@ -62,7 +63,7 @@ public class NumberArray {
     public int hashCode() {
         int code = 1;
         for(int i=0;i<numbers.length;i++) {
-            code = 17 * code + numbers[i];
+            code = constantValue.getNUMBER_FOR_HASH_CODE() * code + numbers[i];
         }
         code = code*numbers.length;
         log.info("User get HashCode");

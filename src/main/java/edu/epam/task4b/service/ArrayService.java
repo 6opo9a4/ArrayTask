@@ -1,11 +1,13 @@
 package edu.epam.task4b.service;
 
-import edu.epam.task4a.variables.NumberArray;
+import edu.epam.task4b.variables.ConstantValue;
+import edu.epam.task4b.variables.NumberArray;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class ArrayService {
     private static final Logger log = LogManager.getLogger(String.valueOf(NumberArray.class));
+    ConstantValue constantValue = new ConstantValue();
 
     public int[][] bubbleSortBySum(int[][] numbers){
         if(numbers.length<2) {
@@ -120,10 +122,10 @@ public class ArrayService {
         int number = (int) ( Math.random() * 10000);
         int[][] generatedArray = new int[size][];
         for (int i = 0;i<size;i++){
-            int blockSize = (int) ( Math.random() * 9 + 1);
+            int blockSize = (int) ( Math.random() * constantValue.getMaxBlockSize() + 1);
             int[] block = new int[blockSize];
             for(int z =0;z<blockSize;z++){
-                block[z] = (int) ( Math.random() * 10000);
+                block[z] = (int) ( Math.random() * constantValue.getMaxRandomValue());
             }
             generatedArray[i] = block;
         }

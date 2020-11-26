@@ -8,22 +8,24 @@ import java.util.Arrays;
 public class NumberArray {
     private int[][] numbers;
     private static final Logger log = LogManager.getLogger(String.valueOf(edu.epam.task4a.variables.NumberArray.class));
-
+    ConstantValue constantValue = new ConstantValue();
     public NumberArray(){
-
     }
+
     public NumberArray(int[][] numbers){
         this.numbers = numbers;
     }
 
     public int[][] getNumbers() {
-        return numbers;
+        int[][] numbersTake=Arrays.copyOf(this.numbers, this.numbers.length);
+        return numbersTake;
     }
 
     public int[] getBlock(int blockNumber){
         int[][] numbers = this.numbers;
         if(numbers.length>blockNumber){
-            return numbers[blockNumber];
+            int[] numbersTake = Arrays.copyOf(numbers[blockNumber], numbers[blockNumber].length);
+            return numbersTake;
         }
         else {
             log.error("Out of arrays range");
@@ -62,6 +64,19 @@ public class NumberArray {
             log.error("Out of arrays range");
             throw new IllegalArgumentException("Out of arrays range");
         }
+    }
+
+    @Override
+    public int hashCode() {
+        int code = 1;
+        for(int i=0;i<numbers.length;i++) {
+            for(int z=0;z<numbers[i].length;i++){
+                code = constantValue.getNUMBER_FOR_HASH_CODE() * code + numbers[i][z];
+            }
+        }
+        code = code*numbers.length;
+        log.info("User get HashCode");
+        return code;
     }
 
     @Override

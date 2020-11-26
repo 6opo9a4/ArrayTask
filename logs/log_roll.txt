@@ -58,3 +58,77 @@
 2020-11-26 17:39:05 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
 2020-11-26 17:39:05 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
 2020-11-26 17:39:05 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User start binary search
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User found 8
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - Sorted with bubbles
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User found max element:31
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User take fibonacci numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User take prime numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User found max element:12
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User found min element:0
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - Sorted with shell
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - Sorted with shuttle
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User take three-digit-without-repeats numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User read from file
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
+2020-11-26 20:25:36 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4b.variables.NumberArray - User use bubble sort by sum
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4b.variables.NumberArray - User use bubble sort by sum
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare numberArrays
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4b.variables.NumberArray - User use bubble sort by sum
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare numberArrays
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4b.variables.NumberArray - User use bubble sort by max
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4b.variables.NumberArray - User use bubble sort by max
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare numberArrays
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4b.variables.NumberArray - User use bubble sort by min
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4b.variables.NumberArray - User use bubble sort by min
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare numberArrays
+2020-11-26 20:25:50 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals

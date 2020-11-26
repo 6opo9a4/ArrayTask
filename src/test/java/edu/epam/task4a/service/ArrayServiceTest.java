@@ -1,6 +1,5 @@
 package edu.epam.task4a.service;
 
-import edu.epam.task4a.service.ArrayService;
 import edu.epam.task4a.variables.NumberArray;
 import junit.framework.Assert;
 import org.testng.annotations.Test;
