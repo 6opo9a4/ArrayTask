@@ -305,20 +305,29 @@ public class ArrayService {
         return generatedArray;
     }
 
-    public void writeToFile (String filename,int[] numbers) throws IOException {
+    public void writeToFile (String filename,int[] numbers) {
         BufferedWriter outputWriter;
-        outputWriter = new BufferedWriter(new FileWriter(constant.getFILE_PATH()+filename+".txt"));
-        outputWriter.write("");
-        for (int i = 0; i < numbers.length; i++) {
-            outputWriter.write(Integer.toString(numbers[i]));
-            outputWriter.newLine();
+        try {
+            outputWriter = new BufferedWriter(new FileWriter(constant.getFILE_PATH()+filename+".txt"));
+            outputWriter.write("");
+            for (int i = 0; i < numbers.length; i++) {
+                outputWriter.write(Integer.toString(numbers[i]));
+                outputWriter.newLine();
+            }
+            outputWriter.flush();
+            outputWriter.close();
+        } catch (IOException e) {
+            log.error("Error: " + e.getMessage());
         }
-        outputWriter.flush();
-        outputWriter.close();
     }
 
-    public int[] readFromFile(String filename) throws FileNotFoundException {
-        Scanner s = new Scanner(new File(constant.getFILE_PATH()+filename + ".txt"));
+    public int[] readFromFile(String filename) {
+        Scanner s = null;
+        try {
+            s = new Scanner(new File(constant.getFILE_PATH()+filename + ".txt"));
+        } catch (FileNotFoundException e) {
+            log.error("Error: " + e.getMessage());
+        }
         int[] numbers;
         ArrayList<Integer> arrayOfNumbers = new ArrayList<>();
         while (s.hasNext()){
