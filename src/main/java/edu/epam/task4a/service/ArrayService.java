@@ -323,18 +323,20 @@ public class ArrayService {
 
     public int[] readFromFile(String filename) {
         Scanner s = null;
+        int[] numbers =  new int[]{};
         try {
             s = new Scanner(new File(constant.getFILE_PATH()+filename + ".txt"));
+            ArrayList<Integer> arrayOfNumbers = new ArrayList<>();
+            while (s.hasNext()){
+               arrayOfNumbers.add(s.nextInt());
+            }
+            numbers = fromArray(arrayOfNumbers);
+            log.info("User read from file");
         } catch (FileNotFoundException e) {
             log.error("Error: " + e.getMessage());
+        }finally {
+            s.close();
         }
-        int[] numbers;
-        ArrayList<Integer> arrayOfNumbers = new ArrayList<>();
-        while (s.hasNext()){
-           arrayOfNumbers.add(s.nextInt());
-        }
-        numbers = fromArray(arrayOfNumbers);
-        log.info("User read from file");
         return numbers;
     }
 
