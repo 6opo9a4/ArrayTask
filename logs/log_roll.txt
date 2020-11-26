@@ -1,0 +1,44 @@
+2020-11-26 00:59:13 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 00:59:13 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 00:59:13 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 00:59:13 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:00:44 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:00:44 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:00:44 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 01:00:44 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:00:58 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:00:58 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:00:58 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 01:00:58 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:03:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:03:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:03:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 01:03:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:03:46 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:03:46 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:03:46 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 01:03:46 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:08:28 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:08:28 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:08:28 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 01:08:28 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:11:19 [main] TRACE class edu.epam.task4a.variables.NumberArray - Enter User start new main %s
+2020-11-26 01:11:19 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:11:19 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:11:19 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 01:11:19 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:12:20 [main] TRACE class edu.epam.task4a.variables.NumberArray - Enter User start new main
+2020-11-26 01:12:20 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:12:20 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:12:20 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 01:12:20 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 01:12:20 [main] TRACE class edu.epam.task4a.variables.NumberArray - Exit with(User end main)
+2020-11-26 12:40:16 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 12:40:16 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 12:44:18 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 12:44:18 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 12:52:42 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 12:52:42 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 12:52:42 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 12:52:42 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
+2020-11-26 12:52:42 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
