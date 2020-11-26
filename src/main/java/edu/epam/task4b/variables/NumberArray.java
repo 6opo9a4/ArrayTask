@@ -1,9 +1,13 @@
 package edu.epam.task4b.variables;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.Arrays;
 
 public class NumberArray {
     private int[][] numbers;
+    private static final Logger log = LogManager.getLogger(String.valueOf(edu.epam.task4a.variables.NumberArray.class));
 
     public NumberArray(){
 
@@ -22,6 +26,7 @@ public class NumberArray {
             return numbers[blockNumber];
         }
         else {
+            log.error("Out of arrays range");
             throw new IllegalArgumentException("Out of arrays range");
         }
 
@@ -33,6 +38,7 @@ public class NumberArray {
             return numbers[blockNumber][position];
         }
         else {
+            log.error("Out of arrays range");
             throw new IllegalArgumentException("Out of arrays range");
         }
     }
@@ -53,16 +59,20 @@ public class NumberArray {
             this.numbers[blockNumber][position] = number;
         }
         else {
+            log.error("Out of arrays range");
             throw new IllegalArgumentException("Out of arrays range");
         }
     }
 
     @Override
     public boolean equals(Object numbersArray) {
+        log.info("User compare numberArrays");
         if (this == numbersArray){
+            log.info("Arrays equals");
             return true;
         }
         if (numbersArray == null || getClass() != numbersArray.getClass()){
+            log.info("Arrays not same");
             return false;
         }
         NumberArray arrayOfNumbers = (NumberArray) numbersArray;
@@ -71,18 +81,22 @@ public class NumberArray {
         if(firstNumbers.length == secondNumbers.length) {
             for (int i = 0;i<firstNumbers.length;i++){
                 if(firstNumbers[i].length!=secondNumbers[i].length) {
+                    log.info("Arrays not same");
                     return false;
                 }
             }
             for(int i=0;i<numbers.length;i++) {
                 for(int z=0;z<numbers[i].length;z++) {
                     if(firstNumbers[i][z]!=secondNumbers[i][z]){
+                        log.info("Arrays not same");
                         return false;
                     }
                 }
             }
+            log.info("Arrays equals");
             return true;
         }
+        log.info("Arrays not same");
         return false;
     }
 

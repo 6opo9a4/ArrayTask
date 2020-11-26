@@ -42,3 +42,9 @@
 2020-11-26 12:52:42 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
 2020-11-26 12:52:42 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
 2020-11-26 12:52:42 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 16:25:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 16:25:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 16:25:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - User read from file
+2020-11-26 16:25:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 16:25:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
+2020-11-26 16:25:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
