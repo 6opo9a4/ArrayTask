@@ -1,7 +1,7 @@
 package edu.epam.task4a.variables;
 
 public class ConstantValue {
-    private final String FILE_PATH = "sawed/";
+    private final String FILE_PATH = "saved/";
 
     public ConstantValue(){
 

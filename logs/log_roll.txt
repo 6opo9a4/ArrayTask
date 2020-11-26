@@ -48,3 +48,13 @@
 2020-11-26 16:25:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
 2020-11-26 16:25:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
 2020-11-26 16:25:06 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
+2020-11-26 17:38:15 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 17:38:15 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 17:38:15 [main] ERROR class edu.epam.task4a.variables.NumberArray - Error: saved\numbers.txt (Системе не удается найти указанный путь)
+2020-11-26 17:38:15 [main] ERROR class edu.epam.task4a.variables.NumberArray - Error: saved\numbers.txt (Системе не удается найти указанный путь)
+2020-11-26 17:39:05 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 17:39:05 [main] INFO  class edu.epam.task4a.variables.NumberArray - User get numbers
+2020-11-26 17:39:05 [main] INFO  class edu.epam.task4a.variables.NumberArray - User read from file
+2020-11-26 17:39:05 [main] INFO  class edu.epam.task4a.variables.NumberArray - NumberArray was created
+2020-11-26 17:39:05 [main] INFO  class edu.epam.task4a.variables.NumberArray - User compare arrays
+2020-11-26 17:39:05 [main] INFO  class edu.epam.task4a.variables.NumberArray - Arrays equals
